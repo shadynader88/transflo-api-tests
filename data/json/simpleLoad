@@ -1,0 +1,59 @@
+{
+  "Assignment": "",
+  "Load": {
+    "Id": "",
+    "BolNumber": "",
+    "OrderNumber": "",
+    "ProNumber": "",
+    "RecipientId": "",
+    "ShippingDate": "",
+    "ShippingTime": "",
+    "DeliveryDate": "",
+    "DeliveryTime": "",
+    "CarrierSpecialInstructions": "",
+    "FreightTerms": "",
+    "Hazardous": true,
+    "Fragile": true,
+    "Quantity": 3,
+    "Packaging": "boxed",
+    "TotalWeight": 2334.09,
+    "WeightUnits": "kg",
+    "Dimensions": {
+      "Units": "cm",
+      "Length": 23.4,
+      "Width": 23.5,
+      "Height": 23.3
+    },
+    "FreightClass": "Hight class",
+    "PickupLocation": {
+      "ContactName": "Antonio",
+      "Company": "Pegasus",
+      "PhoneNumber": "300-200-2000",
+      "AddressLine1": "10009 Oasis Palm Dr",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Tampa",
+      "State": "Fl",
+      "ZipCode": "33615",
+      "Country": "USA",
+      "Latitude": 28.2386092,
+      "Longitude": -82.1497338,
+      "IntegrationId": "First Stop for WithISID6"
+    },
+    "DeliveryLocation": {
+      "ContactName": "Antonio",
+      "Company": "Pegasus",
+      "PhoneNumber": "300-200-2000",
+      "AddressLine1": "8718 Osage Dr",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Tampa",
+      "State": "Fl",
+      "ZipCode": "33634",
+      "Country": "USA",
+      "Latitude": 28.2155761,
+      "Longitude": -82.4330635,
+      "IntegrationId": "Second stop for WithISID6"
+    }
+  }
+}

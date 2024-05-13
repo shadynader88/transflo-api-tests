@@ -1,0 +1,13 @@
+{
+  "FirstName": "",
+  "LastName": "",
+  "Email": "",
+  "PhoneNumber": "",
+  "Activated": true,
+  "Fields": [
+    {
+      "Name": "DriverID",
+      "Value": ""
+    }
+  ]
+}

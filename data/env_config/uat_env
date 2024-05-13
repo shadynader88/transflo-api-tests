@@ -1,0 +1,9 @@
+{
+  "baseURL": "http://35.168.158.196/",
+  "basePath": "svc.transflomobile.com/",
+  "fleetID": "TESTFLEET",
+  "integrationToken": "dGZsbzAxYzpPdFdVZytQcW1MOEJBSklnajMxUURBPT0=",
+  "mobileToken": "KG51bGwpOng5bXE0WG41NEJTTG5kb0JDK1dIV0FURjB1Q2JKYUMrS1p3REQxcDJoOGc9",
+  "mobileInstanceID": "19FBB97D-6FAB-43D9-8D81-D6C9FD33EC00",
+  "requestVerificationToken": "__RequestVerificationToken_L0FkbWluVG9vbHM1=bTnVWAm6qTj6lWcMeFBYpaQfTciqpZCsEwrRbQIGNtFOTK98_VqphQy7SGBuQe6wF-fB19p3haLvWQI_IfZMJgf28zViZ2lS4PyLl5red-g1; .AspNet.ApplicationCookie=VIfiqpN9_ZdX9VIIsHfLp75D2guWPcrHKElrEvGk3aHIBxWOfyJIw6w49gDNDYXE3BLGuJdOcV_m0hwk7anbKl6AYIabsXexSwKwGKpyoCcg0CBHiDwUrDwl_8DVwW5-4KbJd-HS0mWHExrIZshdLP4X51H0i0I79nBRDIPtxstoLTT7hDNaFq8Dg2p5eGkozrAfXcwXEV4422BrLxWTQEaMmwm8VUc9k3fRpQbmFNkUI3QivSMSFtHEWOnLFOl845fqXSmQpPUfI41CcjcBGUysAyPhR-y88BEXRtySgdarpbOCoDBJhY8gscezaHPM6TDkPLeSIi49mr0ce_cMBRvYPdqAHFn5Fo5TwhduFNTDUUSXgOuilFQ3WHsf57N1mGBGkOHRtmKdnrevOQvKSvpEWYNjPN89QD4LFKt9c7n6jBCPyeL1Jd1rSsQddgFX"
+}
