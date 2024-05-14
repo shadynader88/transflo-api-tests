@@ -20,12 +20,6 @@ jobs:
         run: |
           mvn clean test
 
-  generate-allure-report:
-
-    name: Generate Report
-    runs-on: ubuntu-latest
-
-    steps:
       - name: Get Allure history
         uses: actions/checkout@v4
         if: always() 
