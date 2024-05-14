@@ -1,10 +1,12 @@
 name: Maven and REST Assured Test
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_dispatch: # Trigger the workflow manually
+    inputs:
+      tags: # Input parameter for test scenario tags
+        description: "Test scenario tags"
+        required: false
+        default: "smoke"
 
 jobs:
   Run-Rest-Assured-Tests:
