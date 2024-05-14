@@ -27,13 +27,13 @@ jobs:
         run: mvn allure:report
 
       - name: Archive REST-Assured Allure test report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: REST-Assured-results
-          path: target/site/allure-maven-plugin
+          path: target/allure-results
 
       - name: Upload REST-Assured Allure report to GitHub
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: REST-Assured-results
           path: target/site/allure-maven-plugin
