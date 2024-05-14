@@ -28,7 +28,7 @@ jobs:
           mvn clean test
           mvn allure:report
         
-      - name: Get Allure history
+      - name: Get Allure reports history
         uses: actions/checkout@v4
         if: always() 
         continue-on-error: true 
@@ -36,7 +36,7 @@ jobs:
           ref: gh-pages
           path: gh-pages
 
-      - name: Allure report action 
+      - name: Build Allure test report 
         uses: simple-elf/allure-report-action@master
         if: always() 
         with:
@@ -45,7 +45,7 @@ jobs:
           allure_history: allure-history
           keep_reports: 20
 
-      - name: Deploy Allure report to GitHub Pages
+      - name: Publish Allure test report to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -53,7 +53,7 @@ jobs:
           publish_branch: gh-pages
           publish_dir: allure-history
 
-      - name: Post report link
+      - name: Post Allure test report link
         if: always()
         uses: guibranco/github-status-action-v2@main
         with: 
