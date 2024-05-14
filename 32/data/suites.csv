@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue May 14 18:59:52 GMT 2024","Tue May 14 18:59:55 GMT 2024","2698","Transflo APIs","Regression","driverRegistrationTest","driverRegistrationTest","registerNewDriver","registerNewDriver",""
-"passed","Tue May 14 18:59:55 GMT 2024","Tue May 14 18:59:59 GMT 2024","3655","Transflo APIs","Regression","loadsTest","loadsTest","assignSimpleLoad","assignSimpleLoad",""
