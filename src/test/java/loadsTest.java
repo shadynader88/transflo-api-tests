@@ -16,6 +16,7 @@ public class loadsTest extends TestBase {
         Driver driver = CommonMethods.createNewDriver();
 
         Response loadResponse = loadsAPIs.createSimpleLoad(driver);
+
         
        // Assert.assertEquals(loadResponse.path("LoadNumber"), "123");
 
