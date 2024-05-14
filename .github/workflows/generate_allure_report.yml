@@ -14,11 +14,6 @@ jobs:
       - name: Checkout repo 
         uses: actions/checkout@v4
 
-      - name: Prepare Allure history
-        run: |
-          cd ..
-          mkdir -p allure-history
-
       - name: Run tests 
         run: |
           mvn clean test
