@@ -20,3 +20,6 @@ jobs:
 
       - name: Run REST Assured Tests with Maven
         run: mvn clean test
+
+      - name: Extract branch name
+        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}"
