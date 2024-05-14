@@ -1,4 +1,4 @@
-name: Maven and REST Assured Test
+name: Run Manually
 
 on:
   workflow_dispatch: # Trigger the workflow manually
@@ -11,6 +11,7 @@ on:
 jobs:
   Run-Rest-Assured-Tests:
 
+    name: Run Rest Assured Tests
     runs-on: ubuntu-latest
 
     steps:
