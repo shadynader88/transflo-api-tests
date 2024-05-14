@@ -1,4 +1,4 @@
-name: Maven and REST Assured Tests
+name: Maven and REST Assured Test
 
 on:
   push:
