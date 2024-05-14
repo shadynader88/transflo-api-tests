@@ -27,6 +27,12 @@ jobs:
         run: |
           mvn clean test
 
+  generate-report:
+
+    name: Generate Allure Report
+    runs-on: ubuntu-latest
+
+    steps:  
       - name: Get Allure history
         uses: actions/checkout@v4
         if: always() 
