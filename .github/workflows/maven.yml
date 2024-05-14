@@ -23,8 +23,8 @@ jobs:
       - name: Run REST Assured Tests with Maven
         run: mvn clean test
 
-     - name: Generate Allure Report
-       run: mvn allure:serve
+      - name: Generate Allure Report
+        run: mvn allure:serve
 
 #      - name: Upload REST-Assured Allure report to GitHub
 #        uses: actions/upload-artifact@v4
