@@ -27,7 +27,8 @@ jobs:
           mvn clean test
 
   generate-report:
-    if: ${{ always() }}
+    if: always()
+    needs: run-tests
     name: Generate Allure Report
     runs-on: ubuntu-latest
 
