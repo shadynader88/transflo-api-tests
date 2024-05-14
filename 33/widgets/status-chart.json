@@ -1,0 +1,1 @@
+[{"uid":"d9e63c4a1bc8a36b","name":"registerNewDriver","time":{"start":1715714230616,"stop":1715714233040,"duration":2424},"status":"passed","severity":"normal"},{"uid":"a0ec0facc6bda102","name":"assignSimpleLoad","time":{"start":1715714233081,"stop":1715714236385,"duration":3304},"status":"failed","severity":"normal"}]
