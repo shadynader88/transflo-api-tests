@@ -42,7 +42,7 @@ jobs:
           allure_results: target/allure-results
           allure_report: target/site/allure-maven-plugin
           allure_history: allure-history
-          keep_reports: 5
+          keep_reports: 20
 
       - name: Deploy Allure report to GitHub Pages
         if: always()
@@ -54,7 +54,7 @@ jobs:
 
       - name: Post the link to the report
         if: always()
-        uses: Sibz/github-status-action@v1
+        uses: Sibz/github-status-action@master
         with: 
           authToken: ${{secrets.GITHUB_TOKEN}}
           context: 'Test report'
