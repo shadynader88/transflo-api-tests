@@ -15,6 +15,13 @@ jobs:
     steps:          
       - name: Checkout repo 
         uses: actions/checkout@v4
+        
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: maven
 
       - name: Run tests 
         run: |
@@ -25,8 +32,8 @@ jobs:
         if: always() 
         continue-on-error: true 
         with:
-          ref: new-pages
-          path: new-pages
+          ref: gh-pages
+          path: gh-pages
 
       - name: Allure report action 
         uses: simple-elf/allure-report-action@master
@@ -41,5 +48,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: new-pages
+          publish_branch: gh-pages
           publish_dir: allure-history
