@@ -7,7 +7,7 @@ import models.Driver;
 
 public class CommonMethods {
 
-    public static Driver createNewDriver() {
+    public static Driver registerNewDriver() {
 
         Driver driver = new Driver();
 

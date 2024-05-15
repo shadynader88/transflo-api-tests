@@ -13,7 +13,7 @@ public class loadsTest extends TestBase {
     @Test
     void assignSimpleLoad()  {
         
-        Driver driver = CommonMethods.createNewDriver();
+        Driver driver = CommonMethods.registerNewDriver();
 
         Response loadResponse = loadsAPIs.createSimpleLoad(driver);
 

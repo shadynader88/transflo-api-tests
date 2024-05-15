@@ -2,7 +2,6 @@ package apis;
 
 import io.restassured.RestAssured;
 import org.json.simple.JSONObject;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
 public class TestBase {
@@ -15,8 +14,6 @@ public class TestBase {
     public static String fleetID;
     public static String requestVerificationToken;
 
-
-    //Get Base URL
     public static void readEnvironmentAttributes() {
         targetEnvironment = System.getProperty("target_environment");
         JSONObject env_file = Utils.readJsonFile("data/env_config/" + targetEnvironment + "_env");
@@ -25,7 +22,7 @@ public class TestBase {
         integrationToken = env_file.get("integrationToken").toString();
         mobileToken = env_file.get("mobileToken").toString();
         fleetID = env_file.get("fleetID").toString();
-        requestVerificationToken = env_file.get("requestVerificationToken").toString();
+        requestVerificationToken = "";
     }
 
     //Set Base URl
