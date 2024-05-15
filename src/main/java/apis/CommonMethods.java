@@ -18,5 +18,6 @@ public class CommonMethods {
         driverAPIs_IWS.registerDriver(driver);
 
         return driver;
+
     }
 }
