@@ -9,7 +9,7 @@ on:
 
 jobs:
   run-tests:
-    name: Run Tests
+    name: Run Testss
     runs-on: ubuntu-latest
 
     steps:          
