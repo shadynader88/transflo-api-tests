@@ -2,14 +2,14 @@ name: Run Tests & Generate Report
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
   workflow_dispatch:
 
 jobs:
   run-tests:
-    name: Run Testss
+    name: Run Tests
     runs-on: ubuntu-latest
 
     steps:          
